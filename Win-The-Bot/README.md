@@ -10,3 +10,5 @@ In this project you are going to leverage the DOM _(Document Object Model)_ as a
 * Selecting and modifying elements.
 * Styling elements.
 * Handling events.
+# Screenshot #
+You can check out the project here :point_right: [WinTheBot](https://codepen.io/nainia_ayoub/full/XWmowyb)
