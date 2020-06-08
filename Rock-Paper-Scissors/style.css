@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffc63f;
+    font-family: sans-serif;
+}
+
+.title{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #141c3a;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    letter-spacing: 2px;
+}
+
+.twitter-grp{
+    display: block;
+    text-align: center;
+    background-color:  #ddd;
+    margin-top: 10px;
+}
+
+.twitter-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    border: none;
+    padding: 0px;
+    position: absolute;
+    padding-top: -10px;
+    
+}
+
+.pseudo{
+    display: inline-block;
+    letter-spacing: 2px;
+    color: #141c3a;
+    text-align: center;
+    margin-left: 32px;
+    
+}
+
+.demo{
+    font-style: italic;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #141c3a;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.items{
+    width: 540px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.generated-hidden{
+    display: none;
+}
+
+.items-image{
+    width: 150px;
+    height: 140px;
+    padding-top: 25px;
+    border-radius: 45%;
+}
+
+.items-name{
+    width: 150px;
+    height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #141c3a;
+    text-align: center;
+    background-color: white;
+    padding-top: 10px;
+    box-shadow: 2px 5px;
+}
+
+#versus{
+    padding-top: 25px;
+    padding-right: 30px;
+    display: none;
+    
+}
+
+#scissors-group{
+    float: right;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#paper-group{
+    float: right;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#rock-group{
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.start-row{
+  margin: 0 auto;
+  width: 220px;
+  height: 40px;
+  font-family: 'Work Sans';
+  background-color: #eb6536;
+  padding-top: 18px;
+  font-size: 18px;
+  text-align: center;
+  color: #141c3a;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px 6px;    
+  display: none;
+    
+}
+
+.score-row{
+    text-align: center;
+    width: 100%;
+}
+
+.score-header {
+    margin-right: 17px;
+    padding: 5px;
+    display: inline;
+    font-family: 'Work Sans';
+    font-size: 12px;
+    letter-spacing: 1.1px;
+    color: #000;
+    
+}
+
+.score-box{
+    display: inline-block;
+    padding: 8px;
+    
+    margin: 18px;
+    margin-right: 20px;
+    width: 59px;
+    background-color: #00ffff;
+    font-family: 'Work Sans';
+    font-size: 45px;
+}
+
+#losses{
+    background-color: #eb6536;
+}
+
+
+

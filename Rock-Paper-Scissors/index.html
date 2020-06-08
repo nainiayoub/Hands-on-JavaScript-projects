@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <p class="title">Play To Win</p>
+        <div class="twitter-grp">
+            <img class="twitter-logo" src="images/twitter.png">
+            <p class="pseudo">@nainia_ayoub</p>
+        </div>
+        <p class="demo">Choose between rock, paper or scissors and see if u can win!</p>
+        <div class="start-row" id="start">
+            Good luck!
+        </div>
+        <section class="items">
+            <section id="rock-group" >
+                <img id="rock-image" class="items-image" src="images/rock.png">
+                <p id="rock-name" class="items-name">rock</p>
+            </section>
+            <section id="rock-group-bot" class="generated-hidden">
+                <img id="rock-image" class="items-image" src="images/rock.png">
+                <p id="rock-name-bot" class="items-name">rock</p>
+            </section>
+            
+            <section id="paper-group" >
+                <img id="paper-image" class="items-image" src="images/paper.png">
+                <p id="paper-name" class="items-name">paper</p>
+            </section>
+            <section id="paper-group-bot" class="generated-hidden">
+                <img id="paper-image" class="items-image" src="images/paper.png">
+                <p id="paper-name-bot" class="items-name">paper</p>
+            </section>
+
+            <section id="scissors-group" >
+                <img id="scissors-image" class="items-image" src="images/scissors.png">
+                <p id="scissors-name" class="items-name">scissors</p>
+            </section>
+             <section id="scissors-group-bot" class="generated-hidden">
+                <img id="scissors-image" class="items-image" src="images/scissors.png">
+                <p id="scissors-name-bot" class="items-name">scissors</p>
+            </section>
+            <section id="versus">
+                <img id="vs" src="images/trophy.png">
+            </section>
+        </section>
+        
+        <table class="score-row">
+            <tr>
+                <th class="score-header">Current streak:</th>
+                <th class="score-header">Best streak:</th>
+                <th class="score-header">Total wins:</th>
+                <th class="score-header">Total losses:</th>
+            </tr>
+
+            <tr>
+                <th id="current-streak" class="score-box">0</th>
+                <th id="best-streak" class="score-box">0</th>
+                <th id="total-wins" class="score-box">0</th>
+                <th id="losses" class="score-box">0</th>
+            </tr>
+        </table> 
+        
+        <script src="main.js"></script>
+    </body>
+    
+</html>
