@@ -11,5 +11,4 @@ In this project you are going to leverage the DOM _(Document Object Model)_ as a
 * Styling elements.
 * Handling events.
 # Screenshot #
-You can check out the project here :point_right: [WinTheBot](https://codepen.io/nainia_ayoub/full/XWmowyb)<br/>
-![Image](/logo/WinTheBot.png?raw=true)
+You can check out the project here :point_right: [WinTheBot](https://codepen.io/nainia_ayoub/full/XWmowyb)
