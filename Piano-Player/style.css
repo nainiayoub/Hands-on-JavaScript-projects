@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffc63f;
+    font-family: sans-serif;
+}
+
+.title{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #141c3a;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    letter-spacing: 2px;
+}
+
+.twitter-grp{
+    display: block;
+    text-align: center;
+    background-color:  #ddd;
+    margin-top: 10px;
+}
+
+.twitter-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    border: none;
+    padding: 0px;
+    position: absolute;
+    padding-top: -10px;
+    
+}
+
+.pseudo{
+    display: inline-block;
+    letter-spacing: 2px;
+    color: #141c3a;
+    text-align: center;
+    margin-left: 32px;
+    
+}
+
+#demo{
+    font-style: italic;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #141c3a;
+    letter-spacing: 1px;
+}
+
+.piano{
+    width: 304px;
+    height: 210px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fd4d3f;
+    margin-top: 30px;
+    
+}
+
+.key{
+    width: 30px;
+    height: 200px;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid #141c3a;
+    box-shadow: 2px 5px;
+    color: #141c3a;
+    transition:all .07s; 
+}
+
+.keydown{
+    transform:scale(1.1);
+    background-color: #6df0c2;
+}
+
+.black-key{
+    width: 25px;
+    height: 100px;
+    color: white;
+    display: inline-block;
+    background-color: #141c3a;
+    position: absolute;
+    margin-left: -10px;
+    padding: 0px;
+}
+
+.keynote{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 175px;
+    color: #141c3a;
+}
+
+.black-keynote{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+#lyrics{
+    width: 400px;
+    height: 220px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-top: 30px;
+    background-color: #fd4d3f; 
+    
+}
+
+.columns{
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#column-optional{
+    display: none;
+}
+
+.words{
+    background-color: white;
+    width: 90px;
+    height: 25px;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    color: 141c3a;
+    text-align: center;
+}
+
+.letters{
+    color: white;
+    margin-top: 15px;
+    width: 25px;
+    height: 20px;
+    margin-left: 35px;
+}
+
+.lines{
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffc63f;
+    color: #141c3a;
+    letter-spacing: 1px;
+}
