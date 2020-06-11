@@ -5,3 +5,4 @@ The projects above document the process of getting familiar with JavaScript, sta
 # All projects
 * :point_right: [Win The Bot game](https://codepen.io/nainia_ayoub/full/XWmowyb)
 * :point_right: [Rock, Paper or Scissors game](https://codepen.io/nainia_ayoub/full/ZEbNYjL)
+* :point_right: [Piano Player](https://nainiayoub.github.io/Hands-on-JavaScript-projects/Piano-Player/)
