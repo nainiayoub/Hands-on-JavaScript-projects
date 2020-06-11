@@ -6,4 +6,5 @@ In this project you will be able to create a Piano Player with DOM events, just 
 * Event Object Properties.
 * Keyboard events.
 # Screenshots #
-You can check out how the project turned out here :point_right: [Piano Player](https://nainiayoub.github.io/Hands-on-JavaScript-projects/Piano-Player/) 
+You can check out how the project turned out here :point_right: [Piano Player](https://nainiayoub.github.io/Hands-on-JavaScript-projects/Piano-Player/)<br/><br/>
+<img src="images/pianoPlayer.PNG">
