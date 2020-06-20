@@ -9,4 +9,5 @@ In this project you are going to have fun by implementing the concepts of ___DOM
 * Adding Event Handlers.
 * Leveraging Event Handler properties with different event types.
 # Screenshots #
-You can check out how the project turned out here :point_right: [Rock, Paper & Scissors](https://codepen.io/nainia_ayoub/full/ZEbNYjL)
+You can check out how the project turned out here :point_right: [Rock, Paper & Scissors](https://codepen.io/nainia_ayoub/full/ZEbNYjL) <br/> <br/>
+<img src="images/RockPaperScissors.PNG">
