@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Musicon</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="handlebars.min.js"></script>
+        <script id="templateHB" type="text/x-handlebars-template">
+        {{#each instruments}}
+            <article class="instrument">
+                <img class="image" src="{{this.image}}" alt="{{this.name}}">
+                <section class="details">
+                    <h2 class="name">{{this.name}}</h2>
+                    <p class="description">{{this.description}}</p>
+                    {{#if sale}}
+                        <p class="price"><del>Price : {{this.price}}</del></p>
+                        <p class="sale">On Sale! {{this.sale}}</p>
+                    {{else}}
+                        <p class="price"><del>Price : {{this.price}}</del></p>
+                    {{/if}}
+                </section>
+            </article>
+        {{/each}}
+        </script>
+    </head>
+    <body>
+        <header>
+            <section class="container">
+                <a href="index.html"><img src="images/morocco.png" class="branding"></a>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a href="store.html">Store</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        
+        <article id="showcase">
+            <section class="container" id="information">
+            
+            </section>
+        
+        </article>
+        
+        <footer>
+            <p>&copy; The Moroccan Vibe 2020</p>
+            <p style="color: #ddd">- By Ayoub Nainia</p>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
