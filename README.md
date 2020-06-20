@@ -9,3 +9,4 @@ The projects above document the process of getting familiar with JavaScript, sta
 <img src="Rock-Paper-Scissors/images/RockPaperScissors.PNG"><br/><br/>
 3. :point_right: [Piano Player](https://nainiayoub.github.io/Hands-on-JavaScript-projects/Piano-Player/)<br/><br/>
 <img src="Piano-Player/images/pianoPlayer.PNG"><br/><br/>
+4. :point_right: [The Moroccan Vibe](https://nainiayoub.github.io/Hands-on-JavaScript-projects/The%20Moroccan%20Vibe/index.html)<br></br>
