@@ -3,6 +3,6 @@ This project is __The Moroccan Vibe__ website that I have build from scratch usi
 # Motivation
 Handlebars is a client-side templating engine that allows you to build semantic templates. In this project, templating with Handlerbars allowed me to :
 * Create simple, easy to read, and reusable template.
-* Implementing the major steps of using Handlebars in a project.
+* Implement the major steps of using Handlebars in a project.
 * Display relevant information using JavaScript objects, arrays, and control flow alongside built-in Handlebars iteration and control flow helpers.
 # Screenshots
