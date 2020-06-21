@@ -86,11 +86,10 @@ nav{
 }
 
 .navbar li:hover{
-    background-color: #ddd;
+    background-color: #666;
     color: #fff;
     font-weight: bold;
     opacity: none;
-    background-color: transparent;
 
 }
 
