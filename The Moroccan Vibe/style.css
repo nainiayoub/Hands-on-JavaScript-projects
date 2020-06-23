@@ -206,4 +206,12 @@ nav{
     border-radius: 5px;
 }
 
+.image-about{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    min-width: 100px;
+    margin: 0 auto;
+}
+
 
