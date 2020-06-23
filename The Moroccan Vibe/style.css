@@ -196,4 +196,14 @@ nav{
     text-align: left;
 }
 
+.about{
+    width: 90%;
+    overflow: auto;
+    background-color: #fff;
+    opacity: 0.9;
+    padding: 2% 5%;
+    margin: 5% auto;
+    border-radius: 5px;
+}
+
 
