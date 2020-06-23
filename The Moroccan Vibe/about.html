@@ -7,6 +7,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
         <link rel="icon" href="images/morocco.png">
+        <script src="handlebars.min.js"></script>
+        <script id="templateHB" typr="text/x-handlebars-template">
+                <article class="about">
+                    <img class="image-about" src="{{this.imageAbout}}" alt="{{this.myName}}">
+                    <section class="details">
+                        <h2 class="name">About The Moroccan Vibe</h2>
+                        <p class="description" id="about-description">{{this.aboutMoroccoDescription}}</p><br><br>
+                        
+                        <h2 class="name">About me</h2>
+                        <p class="description" id="about-description">{{this.aboutMeDescription}}</p>
+                    </section>
+                </article>
+        </script>
     </head>
     <body>
     <header>
@@ -25,16 +38,7 @@
             
         <article id="showcase">
             <section class="container" id="information">
-                <article class="about">
-                    <img class="image-about" src="images/moroccoDark.png" alt="Ayoub Nainia">
-                    <section class="details">
-                        <h2 class="name">About The Moroccan Vibe</h2>
-                        <p class="description" id="about-description">The Moroccan Vibe website represents what daily Moroccan life stands for, from sharing the Moroccan culture with the world trough unique pieces, art and historical events to transmitting the Moroccan vibe with spontaneous videos and interactive conversations.<br>This is The Moroccan Vibe!</p><br><br>
-                        
-                        <h2 class="name">About me</h2>
-                        <p class="description" id="about-description">My name is Ayoub Nainia, I'm a Moroccan tech enthusiast and a web developer. I'm passionate about adding value to the community whether it's by fullfilling real life needs with data, conceptual design of information systems and web devoloppement or by sharing my perspective and culture that has shaped me.</p>
-                    </section>
-                </article>
+                
             </section>
         </article>
         
