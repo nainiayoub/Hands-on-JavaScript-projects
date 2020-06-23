@@ -2,6 +2,10 @@ const context = {
     title: 'The Moroccan Vibe',
     body: '"The Moroccan vibe is the state of being surrounded by your fellow Moroccan friends with which you have had Moroccan tea sessions while discussing life, making jokes and debating random stuff."',
     link: 'Welcome!',
+    imageAbout : 'images/moroccoDark.png',
+    aboutMoroccoDescription : 'The Moroccan Vibe website represents what daily Moroccan life stands for, from sharing the Moroccan culture with the world trough unique pieces, art and historical events to transmitting the Moroccan vibe with spontaneous videos and interactive conversations. This is The Moroccan Vibe!',
+    aboutMeDescription : 'My name is Ayoub Nainia, I am a Moroccan tech enthusiast and a web developer. I am passionate about adding value to the community whether it is by fullfilling real life needs with data, conceptual design of information systems and web devoloppement or by sharing my perspective and culture that has shaped me.',
+    myName : 'Ayoub NAINIA',
     instruments: [
         {
           image: 'https://idata.over-blog.com/1/50/59/42/calligraphies/P1120521.jpg',
