@@ -7,3 +7,4 @@ The projects above document the process of getting familiar with JavaScript, sta
 2. :point_right: [Rock, Paper or Scissors game](https://codepen.io/nainia_ayoub/full//ZEbNYjL)
 3. :point_right: [Piano Player](https://nainiayoub.github.io/Hands-on-JavaScript-projects/Piano-Player/)
 4. :point_right: [The Moroccan Vibe](https://nainiayoub.github.io/Hands-on-JavaScript-projects/The%20Moroccan%20Vibe/index.html) (with Handlebars)
+5. :point_right: [My Movie List](https://nainiayoub.github.io/Hands-on-JavaScript-projects/MyMovieList/) (OOP & Localstorage)
