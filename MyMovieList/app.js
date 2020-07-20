@@ -1,8 +1,9 @@
 // Movie class
 class Movie{
-    constructor(title, director, genre){
+    constructor(title, director, poster, genre){
         this.title = title;
         this.director = director;
+        this.poster = poster;
         this.genre = genre;
     }
 }
@@ -23,6 +24,7 @@ class UI{
         row.innerHTML = `
         <td>${movie.title}</td>
         <td>${movie.director}</td>
+        <td><img src="${movie.poster}" width="60px" height="100px"></td>
         <td>${movie.genre}</td>
         <td class="text-center"><a href="#" class="btn btn-danger btn-sm delete">delete</a></td>
         `;
@@ -53,6 +55,7 @@ class UI{
         document.getElementById('title').value = '';
         document.getElementById('director').value = '';
         document.getElementById('genre').value = '';
+        document.getElementById('poster').value = '';
     }
 
 }
@@ -100,6 +103,7 @@ document.querySelector('#movie-form').addEventListener('submit', (event) => {
     const title = document.querySelector('#title').value;
     const director = document.querySelector('#director').value;
     const genre = document.querySelector('#genre').value;
+    const poster = document.querySelector('#poster').value;
 
     if(title === '' || director === '' || genre === '')
     {
@@ -108,7 +112,7 @@ document.querySelector('#movie-form').addEventListener('submit', (event) => {
     else
     {
         //instantiate movie
-        const movie = new Movie(title, director, genre);
+        const movie = new Movie(title, director, poster, genre);
         //Add movie
         UI.addMovieToList(movie);
 
@@ -128,7 +132,7 @@ document.querySelector('#movie-form').addEventListener('submit', (event) => {
 document.getElementById('movie-list').addEventListener('click', (event) => {
     UI.deleteBook(event.target);
     //Remove from store
-    Store.removeMovie(event.target.parentElement.previousElementSibling.previousElementSibling.previousElementSibling.textContent);
+    Store.removeMovie(event.target.parentElement.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.textContent);
     
     UI.showAlert('Book removed.', 'success');
     
